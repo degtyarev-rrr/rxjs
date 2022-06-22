@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin: auto;
+}
+
+.btn {
+  width: 450px;
+  margin: 10px;
+  padding: 20px;
+  border: none;
+  background-color: #00b4cc;
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.4s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #049eb3;
+  }
+}
+
+p {
+  margin-left: 20px;
+}

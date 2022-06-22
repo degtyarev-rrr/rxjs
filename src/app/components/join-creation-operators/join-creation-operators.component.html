@@ -1,0 +1,21 @@
+<h1 class="title">Join Creation Operators</h1>
+
+<button (click)="showLatestOnEveryChanges()" class="btn">
+  Выводить массив последних испускаемых значений их всех 3 потоков когда любой
+  из потоков испускает новое значение. Начинать выводить значения нужно после
+  того, как все 3 потока испустили хотя бы 1 значение
+</button>
+
+<p>{{ firstAnswer }}</p>
+
+<button (click)="showLatestAfterAllComplete()" class="btn">
+  Вывести последние значения всех 3 потоков когда они завершились
+</button>
+
+<p>{{ secondAnswer }}</p>
+
+<button (click)="showLatestAfterAllChange()" class="btn">
+  Выводить значения всех 3 потоков когда они все испустили новые значения
+</button>
+
+<p>{{ thirdAnswer }}</p>

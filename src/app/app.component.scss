@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 50px;
+
+  a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #dad2ca;
+    color: #444444;
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-decoration: none;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #fce594;
+    }
+  }
+}
